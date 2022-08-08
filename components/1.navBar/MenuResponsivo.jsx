@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { AiOutlineClose} from 'react-icons/ai';
-import NavLogo from '../../public/assets/navLogo.png' //logo de navbar
+import NavLogo from '../../public/assets/navLogo.jpeg' //logo de navbar
 import { ActiveLink } from './ActiveLink';
 import MenuContact from '../utils/MenuContact';
 
@@ -25,7 +25,7 @@ const MenuResponsivo = ({ nav, setNav }) => {
                                 <Image
                                     src={NavLogo}
                                     width='87'
-                                    height='35'
+                                    height='55'
                                     alt='/'
                                 />
                             </a>
@@ -39,7 +39,7 @@ const MenuResponsivo = ({ nav, setNav }) => {
                     </div>
                     <div className='border-b border-gray-300 my-4'>
                         <p className='w-[85%] md:w-[90%] py-4'>
-                            Construyamos algo legendario
+                            
                         </p>
                     </div>
                 </div>

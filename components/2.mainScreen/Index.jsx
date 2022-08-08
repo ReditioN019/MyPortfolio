@@ -12,7 +12,7 @@ const Main = () => {
                     <h1 className='py-4 text-4xl  lg:text-7xl text-[#64ffda]'>Sebastián Rojo </h1>
                     <h2 className='py-2 text-xl  md:text-3xl lg:text-4xl text-[#38B6FF]'>Ingeniero de Software</h2>
                     <p  className='py-4 text-xs  md:text-sm lg:text-xl text-white sm:max-w-[70%]'>
-                        Estoy enfocado en crear aplicaciones web front-end responsivas mientras aprendo tecnologías back-end.
+                        He aprendido a crear aplicaciones web frontend responsivas y ahora estoy enfocandome en dominar el backend.
                     </p>
                     
                     <MenuContact />

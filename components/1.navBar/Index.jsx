@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { AiOutlineMenu as Hamburguesa } from 'react-icons/ai';
-import NavLogo from '../../public/assets/navLogo.png' //logo de navbar
+import NavLogo from '../../public/assets/navLogo.jpeg' //logo de navbar
 import MenuResponsivo from './MenuResponsivo'; //Componente menu responsivo 
 import { ActiveLink } from './ActiveLink';
 
@@ -38,8 +38,8 @@ const Navbar = () => {
                         <Image
                             src={NavLogo}
                             alt='/'
-                            width={80}
-                            height={50}
+                            width={120}
+                            height={70}
                             className='cursor-pointer'
                         />
                     </a>

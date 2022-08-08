@@ -21,7 +21,7 @@ const Projects = () => {
                         projectUrl='/proyectos/proyecto2'
                         tech='React JS'
                     />
-                    <ProjectItem
+                    {/* <ProjectItem
                         title='Netflix App'
                         backgroundImg={netflixImg}
                         projectUrl='/proyectos/proyecto3'
@@ -32,7 +32,7 @@ const Projects = () => {
                         backgroundImg={twitchImg}
                         projectUrl='/proyectos/proyecto4'
                         tech='Next JS'
-                    />
+                    /> */}
                 </div>
             </div>
         </div>
