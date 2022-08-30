@@ -1,4 +1,4 @@
-import { GiffApp, MiniApp } from '../../public/assets/projects';
+import { GiffApp, MiniApp, TasksApp } from '../../public/assets/projects';
 import netflixImg from '../../public/assets/projects/netflix.jpg'
 import twitchImg from '../../public/assets/projects/twitch.jpg'
 import ProjectItem from './ProjectItem';
@@ -21,12 +21,13 @@ const Projects = () => {
                         projectUrl='/proyectos/proyecto2'
                         tech='React JS'
                     />
-                    {/* <ProjectItem
-                        title='Netflix App'
-                        backgroundImg={netflixImg}
+                     <ProjectItem
+                        title='Tasks App'
+                        backgroundImg={TasksApp}
                         projectUrl='/proyectos/proyecto3'
-                        tech='React JS'
+                        tech='Fullstack Javascript'
                     />
+                    {/*
                     <ProjectItem
                         title='Twitch UI'
                         backgroundImg={twitchImg}
