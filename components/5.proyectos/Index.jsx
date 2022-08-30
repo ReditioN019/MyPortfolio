@@ -1,6 +1,4 @@
 import { GiffApp, MiniApp, TasksApp } from '../../public/assets/projects';
-import netflixImg from '../../public/assets/projects/netflix.jpg'
-import twitchImg from '../../public/assets/projects/twitch.jpg'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {

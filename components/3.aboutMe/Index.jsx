@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import AboutImg from '../../public/assets/about.jpg';
 import Skill from './Skill';
-import { Tailwind, Javascript, jQuery, ReactImg, Bootstrap, Git, Node, Next, Sql, Net, Typescript } from '../../public/assets/skills'
+import { Nest, Javascript, jQuery, ReactImg, Bootstrap, Git, Node, Next, Sql, Net, Typescript, Redux, Docker, Tailwind, Mui } from '../../public/assets/skills'
 import MenuContact from '../utils/MenuContact';
 
 
@@ -20,16 +20,20 @@ const About = () => {
                         <h3 className='text-xl font-bold my-5'>Habilidades</h3>
                         <div className='grid grid-cols-3   sm:grid-cols-5    lg:grid-cols-6 gap-1   '>
                             <Skill logo={Javascript} text={"Javascript"} />
+                            <Skill logo={Typescript} text={"Typescript"} />
                             <Skill logo={jQuery} text={"jQuery"} />
                             <Skill logo={ReactImg} text={"React"} />
-                            <Skill logo={Typescript} text={"Typescript"} />
+                            <Skill logo={Redux} text={"Redux"} />
                             <Skill logo={Next} text={"Next"} />
                             <Skill logo={Node} text={"NodeJS"} />
-                            <Skill logo={Bootstrap} text={"Bootstrap"} />
-                            <Skill logo={Tailwind} text={"Tailwind"} />
+                            <Skill logo={Nest} text={"Nest"} />
                             <Skill logo={Git} text={"Git"} />
                             <Skill logo={Sql} text={"SQL"} />
+                            <Skill logo={Docker} text={"Docker"} />
                             <Skill logo={Net} text={".NET 6"} />
+                            <Skill logo={Bootstrap} text={"Bootstrap"} />
+                            <Skill logo={Mui} text={"Material UI"} />
+                            <Skill logo={Tailwind} text={"Tailwind"} />
                         </div>
                     </div>
                 </div>
